@@ -1,0 +1,83 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&display=swap');
+
+/* modules */
+@import 'modules/sideMenu.css';
+@import 'modules/tweet.css';
+@import 'modules/sideColumn.css';
+@import 'modules/sideColumnContent.css';
+@import 'modules/sideColumnContentHeader.css';
+@import 'modules/sideColumnContentShowMore.css';
+@import 'modules/followProfile.css';
+@import 'modules/privacyPolicy.css';
+@import 'modules/profile.css';
+@import 'modules/tabbar.css';
+
+
+/* pages */
+@import 'pages/home.css';
+@import 'pages/profile.css';
+
+/* variables */
+:root {
+    /* colors */
+    --white: #FFFFFF;
+    --black: #0F1419;
+    --like: #F4245E;
+    --primary-blue: #1DA1F2;
+    --dark1: #17202A;
+    --dark2: #1C2733;
+    --dark3: #283340;
+    --dark4: #3A444C;
+    --dark5: #5B7083;
+    --dark6: #8899A6;
+    --dark7: #EBEEF0;
+    --dark8: #F7F9FA;
+
+    --body-font-size: 1rem;
+    --body-font-weight: 500;
+    --body-font-family: 'Red Hat Display', sans-serif;
+
+    --title-font-weight: 700;
+    --title-font-size: 1.25rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: var(--white);
+    font-family: var(--body-font-family);
+    font-style: normal;
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
+    color: var(--dark5);
+}
+
+h1 {
+    font-size: var(--title-font-size);
+    text-transform: capitalize;
+}
+
+
+/* container */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.post_tweet_spacer {
+    height: 0.62rem;
+    background: var(--dark8);
+    border: none;
+    margin-bottom: 0.59rem;
+}
+
+button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,88 @@
+/* sideMenu section */
+
+.sideMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-right: 0.1rem solid var(--dark7);
+}
+
+.sideMenu__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 15.93rem;
+    margin: 0 0.62rem 14.37rem 0.62rem;
+    padding: 0.4rem 0.5rem 0.8rem 0.5rem;
+}
+
+.sideMenu__icon {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.15rem 0.15rem 0.15rem 0.50rem;
+}
+
+.sideMenu__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.sideMenu__navItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+    padding: 0.93rem 5rem 0.93rem 0.62rem;
+}
+
+.sideMenu__navItem.active{
+    color: var(--primary-blue);
+}
+
+.sideMenu__navIcon {
+    width: 1.87rem;
+    height: 1.87rem;
+    padding: 0.15rem;
+}
+
+.sideMenu__navTitle {
+    font-size: var(--title-font-size);
+    padding-left: 1.25rem;
+}
+
+.sideMenu__button {
+    border: none;
+    margin-top: 0.93rem;
+    padding: 0.93rem 5.81rem;
+    font-weight: var(--title-font-weight);
+    border-radius: 624.93rem;
+    background: var(--primary-blue);
+    color: var(--white);
+}
+
+.sideMenu__profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1.43rem 0rem 0.62rem;
+}
+
+.sideMenu__profilePicture {
+    width: 2.43rem;
+    height: 2.43rem;
+    margin-right: 0.62rem;
+    border-radius: 50%;
+}
+
+.sideMenu__profileName {
+    text-transform: capitalize;
+    color: var(--black);
+}
+
+.sideMenu__profileMore {
+    width: 2.06rem;
+    height: 2.06rem;
+    margin-left: 3.25rem;
+}

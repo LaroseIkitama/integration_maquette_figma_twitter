@@ -1,0 +1,36 @@
+.sideColumn__contentProfile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    border-top:  0.06rem solid var(--dark5);
+}
+
+.sideColumn__contentProfile div:first-child{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sideColumn__contentProfileAvatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: 0.68rem;
+}
+
+
+.sideColumn__contentProfileName {
+    color: var(--black);
+    font-weight: var(--title-font-weight);
+}
+
+.sideColumn__contentProfileAction {
+    width: 5rem;
+    height: 1.87rem;
+    border-radius: 624.93rem;
+    border: 0.06rem solid var(--primary-blue);
+    color: var(--primary-blue);
+    font-weight: var(--title-font-weight);
+}

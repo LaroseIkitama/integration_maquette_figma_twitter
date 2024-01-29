@@ -1,0 +1,21 @@
+.tabbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    padding: 0;
+    text-align: center;
+}
+
+.tabbar__Item {
+    text-decoration: none;
+    font-weight: var(--title-font-weight);
+    color: var(--dark5);
+    padding: 1rem;
+    
+}
+
+.tabbar__Item.active {
+    color: var(--primary-blue);
+    border-bottom: 0.3rem solid var(--primary-blue);
+}

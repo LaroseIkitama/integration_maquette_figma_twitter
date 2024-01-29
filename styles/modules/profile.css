@@ -1,0 +1,94 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.profileCover {
+    width: 39rem;
+    height: 12.5rem;
+    object-fit: cover;
+    margin-bottom: 0.62rem;
+  
+}
+
+.profileContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 3rem;
+}
+
+.profileAvatar {
+    width: 8.68rem;
+    height: 8.68rem;
+    border-radius: 50%;
+    border:0.31rem solid var(--black);
+    position: absolute;
+    top: 1;
+    left: 0;
+    margin-left: 0.5rem;
+}
+
+.profileEditButton {
+    width: 7rem;
+    height: 2.43rem;
+    border-radius: 624.93rem;
+    border: 0.06rem solid var(--primary-blue);
+    color: var(--primary-blue);
+    background: none;
+    font-weight: var(--title-font-weight);
+}
+
+.profileName {
+    color: var(--black);
+}
+
+.profileUsername {
+    font-size: var(--body-font-size);
+    color: var(--dark5);
+    text-transform: lowercase;
+    font-weight: 500;
+}
+
+.profileStatus {
+    font-size: var(--body-font-size);
+    color: var(--black);
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: row;
+    color: var(--dark5);
+    margin-bottom: 0.62rem;
+    padding-left: 0.30rem;
+}
+
+.profileInfoIcone {
+    margin-right: 0.31rem;
+}
+
+.profileInfoLocation {
+    margin-right: 0.56rem;
+}
+
+.profileFollowing {
+    display: flex;
+    flex-direction: row;
+    color: var(--dark5);
+}
+
+.profileFollowing strong {
+    margin-right: 0.31rem;
+    color: var(--black);
+}
+
+.profileFollowing span {
+    margin-right: 0.56rem;
+    color: var(--black);
+}
+
+.profileContent,.profileName,.profileStatus,.profileFollowing{
+    padding: 0rem 0.5rem 0.8rem 0.5rem;
+}

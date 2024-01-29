@@ -1,0 +1,21 @@
+.feedProfile__header {
+    display: flex;
+    flex-direction: row;
+    height: 3.31rem;
+    margin-bottom: 0.62rem;
+    margin-top: 0.62rem;
+    color: var(--black);
+   
+}
+
+
+.feedProfile__headerIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 2.18rem;
+}
+
+.feedProfile__header .feedProfile__headerTotalTweets {
+    color: var(--dark5);
+    font-size: 0.81rem;
+}

@@ -1,0 +1,86 @@
+/* section feed */
+.feed__header,
+.post,
+.tweet {
+    padding: 0rem 0.5rem 0.8rem 0.5rem;
+}
+
+.feed__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3.31rem;
+    margin-bottom: 0.62rem;
+    margin-top: 0.62rem;
+    color: var(--black);
+    border-bottom: 0.1rem solid var(--dark7);
+}
+
+.feed__headerIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* section post */
+.post {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.62rem;
+}
+
+.post__avatar {
+    width: 3.06rem;
+    height: 3.06rem;
+    margin: 0rem 0.75rem 0rem 0rem;
+    border-radius: 50%;
+}
+
+.post__action {
+    display: flex;
+    flex-direction: column;
+}
+
+.post__actionTitle {
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+    color: var(--dark-5);
+}
+
+.post__actionTextArea {
+    resize: none;
+    text-align: start;
+    margin-bottom: 1rem;
+    border: 0.01rem solid var(--dark7);
+}
+
+.post__actionTextArea:focus {
+    outline: none;
+}
+
+
+.post_actionButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.post_actionButtons a {
+    margin-right: 1rem;
+}
+
+.post_actionButtons img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.post__buttonTweet {
+    width: 4.81rem;
+    height: 2.43rem;
+    margin-left: 14.81rem;
+    border: none;
+    font-weight: var(--title-font-weight);
+    border-radius: 624.93rem;
+    background: var(--primary-blue);
+    color: var(--white);
+}
